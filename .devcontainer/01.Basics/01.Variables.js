@@ -2,7 +2,7 @@ const accountID=1027
 let accountEmail="Aman@gmail.com"
 var accountPassword="1027"
 accountCity="Hyderabad"
-let accountState;(it will show undefined bcz we didnt given the value)
+let accountState; /*it will show undefined bcz we didnt given the value)*/
 
 /* comment section written as this way
 constant written as const we can not change the value of const
