@@ -16,7 +16,7 @@
 // console.log( null >= 0);
 
 // The reason is that an equality check == and comparision ><>=<= work differently
-// comparision convert null to a number ,treating it as a 0. Thats why (3) null >= 0 is true and (1) null is false.
+// comparision convert null to a number ,treating it as a 0. Thats why (3) null >= 0 is true and (1) null is false..
 
 // console.log(undefined == 0);
 
