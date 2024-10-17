@@ -25,5 +25,5 @@ console.log(3
       console.log(typeof Aman); console.log(typeof age )
       console.log(typeof undefined);// undefined
       console.log(typeof null);//object
-      // typeoff is used tom identify string value no. etc.
+      // typeoff is used to identify string value no. etc.
 
