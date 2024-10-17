@@ -28,6 +28,69 @@ let booleanIsLoggedIn = Boolean (isLoggedIn)
 let someNumber = 45
 
 let stringNumber = String (someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+//************************************************** OPERATIONS ******************************************
+
+let value = 3
+let negValue = -value
+//console.log( negValue);
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**2);
+//console.log(2**3);
+//console.log(2/2);
+//console.log(2%3);
+//200/3=rem 2 ; quot 66 ;value show here remainder
+
+let str1 = "Hello"
+let str2 = " Aman Singh"
+ let str3 = str1 + str2
+ //console.log(str3);
+ 
+//console.log("1"+ 2);
+//console.log(1 + "2");
+//console.log("1" + "2");
+//console.log("1" + 2 + 2); 
+//console.log(1 + 2 + "2");
+
+//console.log( (1 + 2) * 5 / 3);
+// always use parenthesis () in equations ,it helps to understand.
+
+
+// agar string "" starting me lg jaayga to sb value saath me waise hii likha jaayga koi opeartions nhi hoga
+//console.log("6" * 2 * 2); 
+// string rehne ke baad bhi normal operations hoga yaha
+
+//console.log(true);
+//console.log(+ true);
+
+// + true is written as 1
+
+let num1 , num2 , num3
+num1 = num2 = num3 = 2 + 2
+//console.log(num1,num2,num3);
+
+let gameCounter = 200
+gameCounter++;
+//console.log(gameCounter);
+
+let gameCounter2 = 300
+++ gameCounter2  ;
+console.log(gameCounter2);
+// phle aur baad kahi v ++ k
+//lgaane pr same hii value rhta h
+
+
+
+
+
+
+
+
+
+
 
