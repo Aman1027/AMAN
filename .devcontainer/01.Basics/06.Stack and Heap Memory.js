@@ -18,10 +18,12 @@
  console.log(userOne);
  let userTwo = userOne
  userTwo.email = "Avi@1027@gmail.com"
- console.log(userOne .email);
+ console.log(userOne .email );
  
  console.log(userTwo.email);
  
  
+
+ // STACK ALWAYS USED BY PRIMITIVE : STRING , SYMBOL , BIGINT ,NUMBER , BOOLEAN , NULL , UNDEFINED
  
  
