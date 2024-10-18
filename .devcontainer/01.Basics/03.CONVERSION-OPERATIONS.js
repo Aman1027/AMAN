@@ -74,15 +74,26 @@ let num1 , num2 , num3
 num1 = num2 = num3 = 2 + 2
 //console.log(num1,num2,num3);
 
-let gameCounter = 200
-gameCounter++;
-//console.log(gameCounter);
+let gameCounter1 = 200
+gameCounter1++;
+console.log(gameCounter1);
 
 let gameCounter2 = 300
 ++ gameCounter2  ;
 console.log(gameCounter2);
 // phle aur baad kahi v ++ k
 //lgaane pr same hii value rhta h
+
+let a = 5
+let b = 4
+b = a++ + 5 + b + ++a
+// 5 + 1 + 5 + 4 + 6
+console.log(b);
+let a1 = 4 , b1=3
+
+C1 = ++a1 + b1 + a1-- + a1
+//  1 + 4  + 3 + 5 -1 + 5
+console.log(C1);
 
 
 
