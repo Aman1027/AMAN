@@ -21,6 +21,26 @@ console.log(gameName.indexOf('m'));// m=1 (alphabet to no.)
 
 
 
+const newString = gameName.substring(0,4)
+//    console.log(newString);
+
+const anotherString = gameName.slice(-4,4)
+//    console.log(anotherString); //negative value only in .slice
+
+
+const newStringOne ="   Aman  "
+console.log(newStringOne);
+console.log(newStringOne.trim());// .trim() is used to remove unwanted space from the value
+
+
+
+
+const url ="http://aman.com/aman%27singh"
+console.log( url.replace(%27,'-')) //.replace is used to replace some words with other words
+
+console.log(url.includes('aman'))
+
+
 
 
 
