@@ -10,7 +10,7 @@
 console.log('My name is ${name} and my repo count is ${repoCount} ');
 
 
-const gameName = new String ('Aman')
+const gameName = new String ('Aman-Singh-Rajput')
 console.log(gameName [0]);    // it prints only 1st letter of Aman A ,[1]m ,[2]a,[3]n .
 console.log(gameName.__proto__); // (.dot __ two underscore proto__two underscore)
 
@@ -36,9 +36,19 @@ console.log(newStringOne.trim());// .trim() is used to remove unwanted space fro
 
 
 const url ="http://aman.com/aman%27singh"
-console.log( url.replace(%27,'-')) //.replace is used to replace some words with other words
+console.log( url.replace ( 27,'10')) //.replace is used to replace some words with other words ,1st word which u want to replace and then new words
 
-console.log(url.includes('aman'))
+
+console.log(url.includes('avi')) // .includes help us to to tell the word is in our value or not like avi is not in the value so it will show false ,if i write aman then it will show me true.
+
+
+
+
+console.log(gameName.split('-')); // .split() help us to separate the value we need separator in .split()
+
+
+
+
 
 
 
