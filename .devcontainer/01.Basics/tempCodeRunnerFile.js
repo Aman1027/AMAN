@@ -1,19 +1,7 @@
+ let myCreatedDate = new Date(2024 , 9 ,20)
+ console.log(myCreatedDate.toDateString()); // for dates only
 
+ let myCreatedDate2 = new Date(2024,9,20,19,16)
+ console.log(myCreatedDate2.toLocaleString()); /// its the best for date and time together
 
-
-const newString = gameName.substring(0,4)
-//    console.log(newString);
-
-const anotherString = gameName.slice(-4,4)
-//    console.log(anotherString); //negative value only in .slice
-
-
-const newStringOne ="   Aman  "
-console.log(newStringOne);
-console.log(newStringOne.trim());// .trim() is used to remove unwanted space from the value
-
-
-
-
-const url ="http://aman.com/aman%27singh"
-url.replace(%27,'-'))
+ let myCreatedDate3 = new Date("2024-10-20")
