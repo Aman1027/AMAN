@@ -1,6 +1,6 @@
    let score = "45"
 
-//    console.log(typeof score);
+   console.log(typeof score);
 //    console.log(typeof (score));
 
     let valueInNumber = Number (score)
@@ -40,7 +40,7 @@ let negValue = -value
 //console.log(2+2);
 //console.log(2-2);
 //console.log(2*2);
-//console.log(2**2);
+//console.log(2**2);  // ** it is used  for powering
 //console.log(2**3);
 //console.log(2/2);
 //console.log(2%3);
@@ -51,19 +51,22 @@ let str2 = " Aman Singh"
  let str3 = str1 + str2
  //console.log(str3);
  
-//console.log("1"+ 2);
-//console.log(1 + "2");
-//console.log("1" + "2");
-//console.log("1" + 2 + 2); 
-//console.log(1 + 2 + "2");
+console.log("1"+ 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2); 
+console.log(1 + 2 + "2");
 
-//console.log( (1 + 2) * 5 / 3);
+// agar string "" starting me lg jaayga to sb value saath me waise hii likha jaayga koi operations nhi hoga sirf addition ke situation me
+
+console.log( (1 + 2) * 5 / 3);
 // always use parenthesis () in equations ,it helps to understand.
 
 
-// agar string "" starting me lg jaayga to sb value saath me waise hii likha jaayga koi opeartions nhi hoga
-//console.log("6" * 2 * 2); 
-// string rehne ke baad bhi normal operations hoga yaha
+
+console.log("6" * 5 * 2); 
+console.log("6" * 5 + 2); 
+// string rehne ke baad bhi normal operations hoga yaha qki yaha addtional equation all nhi h
 
 //console.log(true);
 //console.log(+ true);
