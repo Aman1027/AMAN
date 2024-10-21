@@ -1,9 +1,8 @@
-"use strict";//treat all js code as neweer version
+"use strict";//treat all js code as newer version
 
 //alert(10+27)// we are using nodejs,not browser so it wont work here.
 
-console.log(3
-      +3 ) //code readability should be high, in a good sequence//
+console.log(1000 +27 ) //code readability should be high, in a good sequence//
 
       console.log("Avi")
 
@@ -27,4 +26,9 @@ console.log(3
       console.log(typeof undefined);// undefined
       console.log(typeof null);//object
       // typeoff is used to identify string value number  etc.
+
+
+      name="AVI SINGH" // EARLIER   let name = Aman but its a variable value so i changed here but if its const name = aman then its not possible
+      console.log(name);
+      
 
