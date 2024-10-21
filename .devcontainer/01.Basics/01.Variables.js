@@ -15,3 +15,10 @@ accountCity="Bihar"
 accountPassword="12345678"
 
 console.log(accountID);
+console.log(accountEmail);
+console.log(accountCity);
+console.log(accountPassword);
+console.log(accountState);
+
+
+
