@@ -14,9 +14,11 @@ console.log(myArr2);
  
 /////// Array METHODS:-
 
-myArr.push(6)  // its shows up to 6 like 1.2.3.4.5.6 bcz earlier in array 1 1 to 5 and in array 2 its 6 its gives all array value together
+myArr.push(6)  //  whatever we write the value in .push() it gives the value with all previous and this value together .previous array 1 ,2,3,4,5 and its 6 print together
+console.log(myArr);
+
 myArr.push(10)
-myArr.push(27)
+myArr.push(27) // if value outside the array value then it gives -1 as a result.
 myArr.pop()  // .pop() it is used to remove the last value of array like here we have 27 but after .pop() ,its removed
 
 
